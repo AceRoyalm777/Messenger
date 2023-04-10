@@ -5,7 +5,7 @@
     "dev": "concurrently \"tsc -w -p tsconfig.json\" \"NODE_PATH=./dist nodemon -r dotenv/config --delay 1 dist/app.js\""
   },
   "dependencies": {
-    "aws-sdk": "^2.1046.0",
+    "aws-sdk": "^2.1354.0",
     "axios": "^0.24.0",
     "cors": "^2.8.5",
     "express": "^4.17.2",
